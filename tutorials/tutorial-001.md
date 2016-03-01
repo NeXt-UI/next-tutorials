@@ -8,6 +8,8 @@ First of all, download latest NeXt UI release from [Cisco DevNet web-site](https
 
 Create an HTML page. Link CSS and JS files to your project.
 
+TODO: add examples
+
 ## Common Topology Model
 What you need to know before you start: [JSON](http://www.json.org)
 Common Topology Model (CTM) is a basic concept of representation of topology in NeXt UI. It is very simple, but vital to understand. Due to NeXt's JavaScript nature, we use JSON to store topology data (in CTM form). 
@@ -60,5 +62,6 @@ In CTM a topology is an object containing arrays of nodes, nodes' connections (l
 ```
 
 This will be represented as shown on Figure 1:
-figure 1 goes here
+TODO: add picture of example topology
+TODO: close up on CTM: describe nodes, links and node sets separately. More text.
 
