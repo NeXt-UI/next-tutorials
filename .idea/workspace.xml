@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="145d1bb3-c18e-4523-87b1-ab2a11577f29" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/css/external-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/css/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/img/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/CiscoSansExtraLight.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/CiscoSansRegular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/ciscosansextralight-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/ciscosansextralight-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/ciscosansextralight-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/ciscosansregular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/ciscosansregular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/ciscosansregular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/next-font.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/next-font.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/next-font.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/images/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/css/next.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/js/api-filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/js/api-list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/js/api-search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/js/apidocs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/js/yui-prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/vendor/prettify/CHANGES.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/vendor/prettify/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/vendor/prettify/README.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/vendor/prettify/prettify-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/assets/vendor/prettify/prettify-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.Iterable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.Object.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.Observable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.Collection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.CollectionRelation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.Convex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.Counter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.Dictionary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.Edge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.EdgeSet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.EdgeSetCollection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.Force.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.ObservableCollection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.ObservableDictionary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.ObservableGraph.ForceProcessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.ObservableGraph.NeXtForceProcessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.ObservableGraph.QuickProcessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.ObservableGraph.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.ObservableObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.Query.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.SortedMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.Vertex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.data.VertexSet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.geometry.BezierCurve.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.geometry.Line.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.geometry.Math.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.geometry.Matrix.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.geometry.Vector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.BezierCurves.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Circle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.DragManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Line.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.LinkSetTooltipContent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.LinkTooltipContent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.NodeTooltipContent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Path.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Polygon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Rect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Stage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.AbstractLink.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.AbstractNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Categories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.CircleGroup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.DefaultScene.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Graph.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.GroupItem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.GroupsLayer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.LayoutMixin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.LinkMixin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.LinkSet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.LinksLayer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Node.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.NodeMixin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.NodeSet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.NodesLayer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Path.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.PathLayer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.PolygonGroup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.RectGroup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Scene.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.SceneMixin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.SelectionNodeScene.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.SelectionScene.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.StageMixin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.Tooltip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.TooltipManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.TooltipMixin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.TooltipPolicy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.USMapLayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.ZoomBySelection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Topology.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.graphic.Triangle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.AbstractComponent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.Application.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.Component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.CssClass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.CssStyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.DOMComponent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.Popover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.Popup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.PopupContainer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.nx.Env.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.nx.Util.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.nx.dom.Document.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.nx.dom.Element.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.nx.dom.Fragment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.nx.dom.Node.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.ui.nx.dom.Text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/classes/nx.widget.ZIndexManager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/files/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/modules/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/modules/nx.data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/modules/nx.geometry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/modules/nx.graphic.Topology.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/modules/nx.graphic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/modules/nx.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/doc/modules/nx.ui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/ciscosansextralight-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/ciscosansregular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/fonts/next-font.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example/next/js/next.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorial.md" afterPath="$PROJECT_DIR$/tutorials/tutorial-001.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <ignored path="next-docs.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="next-docs" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="tutorial-001.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial-001.md">
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.22058824">
+                <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.04901961">
+                <caret line="2" column="155" selection-start-line="2" selection-start-column="155" selection-end-line="2" selection-end-column="155" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial-001.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="next-docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="next-docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="next-docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="next-docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="next-docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="next-docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="next-docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial-001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorials/files/tutorial-001/setup-example" />
+      <recent name="$PROJECT_DIR$/tutorials/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorials" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="145d1bb3-c18e-4523-87b1-ab2a11577f29" name="Default" comment="" />
+      <created>1456792865116</created>
+      <option name="number" value="Default" />
+      <updated>1456792865116</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04491018">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.04901961">
+            <caret line="2" column="155" selection-start-line="2" selection-start-column="155" selection-end-line="2" selection-end-column="155" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial-001.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.22058824">
+            <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
