@@ -1,5 +1,5 @@
 # Tutorial #1
-Hi! Welcome to NeXt tutorials: we are here to let you understand NeXt UI and make you write your code as soon as possible.
+Hi! Welcome to NeXt tutorials: we are here to let you understand NeXt UI and help you start writing your code as soon as possible.
 
 We highly recommend using NeXt UI with [AngularJS](http://angularjs.org).
 
