@@ -5,6 +5,8 @@ NeXt UI is a Javascript/CSS framework for frontend developers who need to embed 
 
 To jump into learning you are required to know JavaScript (along with JSON) and HTML. Basic knowledge or understanding of CSS, SVG and Object Oriented Programming may be of use. 
 
+We highly recommend using NeXt UI with [AngularJS](http://angularjs.org).
+
 ## Tutorial Contents
 1. [Introduction](/tutorials/tutorial-001.md)
 
