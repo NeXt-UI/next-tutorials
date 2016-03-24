@@ -45,3 +45,7 @@ Create an HTML page. Link CSS and JS files to your project like this
 Here "next" is a path to folder, where NeXt UI files lie.
 
 Example: see **/demos/tutorial-001/**
+
+## What's next?
+Your next step is to understand Common Topology Model. This model is pretty simple, and will take 5-10 minutes to familiarize yourself with it.
+[Read NEXT](./tutorial-002.md)
