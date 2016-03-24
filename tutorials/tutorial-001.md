@@ -44,4 +44,4 @@ Create an HTML page. Link CSS and JS files to your project like this
 
 Here "next" is a path to folder, where NeXt UI files lie.
 
-Example: see [/demos/tutorial-001/](../demos/tutorial/)
+Example: see **/demos/tutorial-001/**
