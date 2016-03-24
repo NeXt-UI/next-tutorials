@@ -4,6 +4,8 @@ Hi! Welcome to NeXt tutorial #1. We are here to let you understand NeXt UI and h
 Okay, why don't we start right away?
 
 ## Setup
+There are two ways of installation NeXt: semi-automatic set-up with [Bower](http://bower.io/), or manual installation. We would recommend installation with Bower.
+
 ### Setup with Bower
 [Bower](http://bower.io/) is a "package manager for the web". In other words, this tool allows you to download JavaScript products for your web applications (or web-sites), manage dependencies and automatically update third-party code. 
 

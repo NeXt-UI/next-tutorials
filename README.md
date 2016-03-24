@@ -8,7 +8,8 @@ To jump into learning you are required to know JavaScript (along with JSON) and 
 We highly recommend using NeXt UI with [AngularJS](http://angularjs.org).
 
 ## Tutorial Contents
-1. [Introduction](/tutorials/tutorial-001.md)
+1. [Setup Framework](/tutorials/tutorial-001.md)
+1. [Common Topology Model](/tutorials/tutorial-002.md)
 
 
 ## Credits
