@@ -77,15 +77,18 @@ var topologyData = {
 };
 ```
 
+Note: Description of each node and link will go into an object called *model*. Every topology entity has this object. I'll teach you how easy it is to handle it later, for now just remember there is a model behind each node and link in topology.
+
 ## Create app.js
 
 I am writing the code inside closures in app.js and it is available for you under **/demos/tutorial-003/**
 
+### Code
 
 ```
 (function(nx){
 
-	// instantiate next app
+	// instantiate NeXt app
 	var app = new nx.ui.Application();
 
 	// configuration object for next
@@ -121,6 +124,33 @@ I am writing the code inside closures in app.js and it is available for you unde
 
 })(nx);
 ```
+
+### Comments
+
+I commented out the code, but let's get into details. 
+
+First off, we need to get an instance of the application class:
+
+```
+var app = new nx.ui.Application();
+```
+
+This is an abstraction for NeXt apps, and there are usually quite a few things we do with it:
+
+* Initialize it - just like we did below
+* Attach a topology to the application object
+* Set a DOM container for the the app
+
+The latter two you saw in the code, but what is more important is the configuration for topology. I created a *topologyConfig* object, which actually implements basic configuration.
+
+The object has a bunch of properties, that make your topology look one way, or another. I'll cover the entire list of properties with comments in the NeXt tutorial, now I'll just describe those used for this example.
+
+* **nodeConfig** - configuration object for all nodes. For this particular case we used the two its properties: *label* and *iconType*. Do you remember that every node and link has a *model*? Now it's time to use it. We used the two properties: *id* and *name* to describe the nodes, and those properties was put into the models. In order to read a name of a node and use it as a node label on the screen, when need to use the syntax ```"label": "model.name"```. This will give us access to the properties of model. Also, you are capable of choosing an icon for a node, just pick a built-in one, or register yours.
+* **linkConfig** - same sort of thing, we'll cover it in the next chapter.
+* **showIcon** - boolean prop, which turns icon depiction on or off.
+* **dataProcessor** - NeXt has a few built-in data processors (don't worry, this will be covered as well), and also you can spin up yours. This is the case we're using "force" data processor, which is actually the one that automatically computes nodes' coordinates based on their connection. That is, you don't have to worry about setting a position for every node. Try to remove this property and see what happens.
+
+
 ## Create index.html
 We have all of our code ready now, so the only thing left is to make up an HTML webpage that fetches the above code. This will be easy one.
 
@@ -139,3 +169,20 @@ We have all of our code ready now, so the only thing left is to make up an HTML 
 </body>
 </html>
 ```
+
+## Result
+Once you open the index.html in a web-browser (we recommend Google Chrome), we should be able to see the following:
+
+![](../images/tutorial-003-result-window.png)
+
+The nodes may have different positioning, because for this particular example "force layout" is used. Force layout is a feature in NeXt that allows you to spread out nodes around your screen automatically.
+
+## What's next?
+
+This tutorial showed you a skeleton of NeXt app. This basically consists of defining topology data (either remote or local), defining a few topology attributes, instanstiation of topology and app classes and then binding these JS objects to HTML view.
+
+Right now you can interact with the topology in a simple way: drag nodes, zoom in/out and do a few other things. But we want to have full control over the graph, don't we? This is why we'll need to augment behavior of the app with a bunch of things like custom nodes and links, custom events and so on. 
+
+Now we need to get to know a bit more stuff about merely topology customization, before we put our hand to customization of its elements. Ready?
+
+[Read NEXT](tutorial-004.md)
