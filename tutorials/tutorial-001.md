@@ -1,4 +1,4 @@
-# Tutorial #1: Setup Framework
+# Setup Framework
 Hi! Welcome to NeXt tutorial #1. We are here to let you understand NeXt UI and help you start writing your code as soon as possible. We keep the tutorial short and simple to let you marsh step by step and monitor your progress after each step.
 
 Okay, why don't we start right away?

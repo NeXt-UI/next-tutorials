@@ -1,4 +1,4 @@
-# Tutorial #2: Common Topology Model
+# Common Topology Model
 What you need to know before you start: [JSON](http://www.json.org)
 
 **Common Topology Model** (CTM) is a basic concept of topology representation in NeXt UI. It is very simple, but vital to understand. Due to NeXt's JavaScript nature, we use JSON to store topology data (in CTM form). 

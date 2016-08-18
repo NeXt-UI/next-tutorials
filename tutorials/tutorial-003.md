@@ -1,4 +1,4 @@
-# Tutorial #3: Your First Topology
+# Your First Topology
 In the [past tutorial](./tutorial-003.md) you got to know Common Topology Model. This lesson will help you to employ this knowledge to spin up a basic NeXt application.
 
 ## Define the file structure

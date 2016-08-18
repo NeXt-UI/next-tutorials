@@ -7,20 +7,19 @@ This is the tutorial to help you understand how NeXt UI Toolkit works and start 
 1. [Download and install](/tutorials/tutorial-001.md)
 2. [Understand Common Topology Model](/tutorials/tutorial-002.md)
 3. [Create your first topology](/tutorials/tutorial-003.md)
-4. Customize topology view
-5. Register a new icon
-6. Customize nodes
-7. Customize links
-8. Customize node & links tooltips
-10. 
-
-Auto-collapse (open one, collapse the others)
-Path over a topology
-What is MVVP
+4. [Introduction to Object-Oriented Programming](/tutorials/tutorials-004.md)
+    1. [Properties](/tutorials/tutorials-004-1.md)
+    2. [Methods](/tutorials/tutorials-004-2.md)
+    3. [Events](/tutorials/tutorials-004-3.md)
 
 ## NeXt + Angular
 Integration NeXt in an Angular app
 CRUD for topology
+
+## License
+The content of the tutorial goes under MIT license.
+
+See [LICENSE](./LICENSE) for more info.
 
 ## Credits
 * Alexei Zverev
