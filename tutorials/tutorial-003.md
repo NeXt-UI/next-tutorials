@@ -22,7 +22,7 @@ When you work with JavaScript libraries from third parties, it's a good habit to
  
 This is how you may use them:
 
-```
+```JavaScript
 // example.js
 
 (function(localVar1, localVar2){
@@ -48,7 +48,7 @@ This is good when you want to achieve modularity and keep you code clean.
 
 This file will contain topology data that we want to display. Here's our example topology, but you may want to build your own to get more expertise.
 
-```
+```JavaScript
 var topologyData = {
 	"nodes": [
 		{
@@ -85,7 +85,7 @@ I am writing the code inside closures in app.js and it is available for you unde
 
 ### Code
 
-```
+```JavaScript
 (function(nx){
 
 	// instantiate NeXt app
@@ -131,7 +131,7 @@ I commented out the code, but let's get into details.
 
 First off, we need to get an instance of the application class:
 
-```
+```JavaScript
 var app = new nx.ui.Application();
 ```
 
@@ -154,7 +154,7 @@ The object has a bunch of properties, that make your topology look one way, or a
 ## Create index.html
 We have all of our code ready now, so the only thing left is to make up an HTML webpage that fetches the above code. This will be easy one.
 
-```
+```HTML
 <!DOCTYPE html>
 <html>
 <head>

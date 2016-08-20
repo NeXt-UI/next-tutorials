@@ -19,19 +19,19 @@ I believe it makes sense. The subject is way too complex, though, and we will go
 ## Three-piece Config
 Every single object in NeXt is broken into three pieces:
 
-* properties: data; represented as strings for text, integers for numbers, JavaScript objects for complex data stuctures and so on
-* methods: represents logic of the class and consists of functions
-* events: special category that contains conditionally invoked functions
+* **properties**: data; represented as strings for text, integers for numbers, JavaScript objects for complex data stuctures and so on
+* **methods**: represents logic of the class and consists of functions
+* **events**: special category that contains conditionally invoked functions
 
 Combined into a config object, it starts looking like this:
 
-```
+```JavaScript
 var config = {
 	"properties": {
 		"myValue": "Hello world"
 	},
 	"methods": {
-		// "constructor" - function that is called at the very beginning
+		// "constructor" -  NeXt invokes this function at the very beginning
 		"init": function(){
 			// ... hard work ...
 		},
@@ -49,6 +49,31 @@ var config = {
 ```
 
 Thus, the config object is a JavaScript object with three properties "properties", "methods" and "events".
+
+## Define a Class
+In order to define a class, you will need to use a simple function ```nx.define()``` — you will see how in a while. Just to remind you, ```nx``` is a base class for entire NeXt functionality, and, therefore, ```define``` is one of its *core* methods.
+
+The function ```nx.define``` takes up to three parameters:
+
+**type** (*String*)
+
+Optional. Type is what your class represents, and, basically, that's a name of your class. For instance, that may be "ExtendedNode" if you would like to alter the default, built-in behavior of all nodes.
+
+**parent** (*Function*)
+
+Optional. Parent class to be inherited by the new one. There will be an article covering that, although what you need to know now is if there's a class (for example, a node) and you would like to modify a part of it (let's say, a way a color is assigned to it), the best choice is to "extend" the class by inheritance, and then, modification of it.
+
+**members** (*Object*)
+
+Optional. The configuration, or members, of the class. May contain *properties*, *methods*, *events*. We defined a sample config above, in the previous section.
+
+For the configuration above (from the section *Three-piece Config*) you can define a class like that:
+
+```JavaScript
+nx.define("MyTestClass", config);
+```
+
+Pretty straight-forward, isn't it?
 
 ## What's next?
 

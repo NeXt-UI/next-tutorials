@@ -10,7 +10,7 @@ We highly recommend using NeXt UI with [AngularJS](http://angularjs.org): this f
 
 NeXt has been a life vest for a bunch of open-source efforts at Cisco. Some of apps were built entirely in NeXt (by means of NeXt UI component), while the rest tend to employ AngularJS as a basement with NeXt's topology component.
 
-Check out a few awesome apps that we at Cisco have been developed to boost SDN initiative.
+Check out a few awesome apps that we at Cisco have developed to boost SDN initiative.
  
 ### Featured apps
 

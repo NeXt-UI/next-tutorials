@@ -21,7 +21,7 @@ Bower creates a folder named /bower_components/ under the working folder, which 
 
 In <head> container of your HTML page, link the files this way:
 
-```
+```HTML
 <head>
     ...
     <link rel="stylesheet" href="bower_components/next-bower/css/next.min.css">
@@ -35,7 +35,7 @@ First of all, download latest NeXt UI release from [Cisco DevNet web-site](https
 
 Create an HTML page. Link CSS and JS files to your project like this
 
-```
+```HTML
 <head>
     ...
     <link rel="stylesheet" href="next/css/next.css">

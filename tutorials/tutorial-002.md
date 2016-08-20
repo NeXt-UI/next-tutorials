@@ -9,7 +9,7 @@ What you need to know before you start: [JSON](http://www.json.org)
 
 Topology is represented as a JavaScript object, essentially consisting of three properties: _nodes_, _links_ and _nodeSet_. NodeSet is sometimes missing, because it is actually a container of nodes. Each of the properties is an array.
 
-```
+```JavaScript
 var topologyData = {
     nodes: [
         //...
@@ -40,7 +40,7 @@ Basically, no properties are necessary for NeXt: because if anything's missed, N
 
 Code example:
 
-```
+```JavaScript
 var topologyData = {
     nodes = [
         {
@@ -73,7 +73,7 @@ You do not have to define link's ID, NeXt may generate it for you. For _source_ 
 
 Code example:
 
-```
+```JavaScript
     links = [
         {
             id: 0,
@@ -107,7 +107,7 @@ A table of properties goes below.
 
 Code example
 
-```
+```JavaScript
     nodeSet = [
         {
             id: 0,
@@ -127,7 +127,7 @@ Code example
 
 Below is the object that is completely correct from CTM's point of view. You can pass this object to NeXt and vizualize the topology (we'll do this in the next lesson).
 
-```
+```JavaScript
 {
 	// array of nodes
 	nodes: [
@@ -174,4 +174,5 @@ Below is the object that is completely correct from CTM's point of view. You can
 
 ## What's next?
 We're going to get to know how to vizualize and customize the topology.
+
 [Read NEXT](./tutorial-003.md)
