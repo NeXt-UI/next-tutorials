@@ -12,3 +12,9 @@ Two methods to define the events: inside "
 ```JavaScript
 // typical .on() implementation
 ```
+
+
+## What's next?
+
+
+[Read NEXT](tutorial-006.md)

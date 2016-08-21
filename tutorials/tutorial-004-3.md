@@ -8,3 +8,9 @@ In NeXt you'll need this all the time. Let's imagine, you're OK with the way NeX
 
 
 ### Keep Constructor Partitially
+
+
+## What's next?
+
+
+[Read NEXT](tutorial-005.md)

@@ -113,4 +113,4 @@ nx.define("ObjectExample", {
 ## What's next?
 Let's get to know how to handle the properties with the methods. Next article will tell about that.
 
-[Read NEXT](tutorial-004-1.md)
+[Read NEXT](tutorial-004-2.md)

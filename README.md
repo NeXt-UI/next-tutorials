@@ -13,9 +13,8 @@ This is the tutorial to help you understand how NeXt UI Toolkit works and start 
     3. [Inheritance](/tutorials/tutorials-004-3.md)
 5. [Events](/tutorials/tutorials-005.md)
 
-## NeXt + Angular
-Integration NeXt in an Angular app
-CRUD for topology
+## NeXt + Angular JS
+These tutorials to see the light of day once the main course is finished and to tell about integration of NeXt into an Angular JS app.
 
 ## License
 The content of the tutorial goes under MIT license.

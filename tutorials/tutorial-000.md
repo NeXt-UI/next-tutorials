@@ -4,7 +4,7 @@ NeXt UI is a Javascript/CSS framework for frontend developers who are in need to
 
 To jump into learning you are required to know JavaScript (along with JSON) and HTML. Basic knowledge or understanding of CSS, SVG and Object Oriented Programming may be of use. 
 
-We highly recommend using NeXt UI with [AngularJS](http://angularjs.org): this fab duo has proven its efficiency in a number of apps. Check some of them out on [Cisco DevNet Labs](https://developer.cisco.com/site/devnetlabs/).
+We highly recommend using NeXt UI with [AngularJS](http://angularjs.org): this fab duo has proven its efficiency in a number of apps. Check some of them out on [Cisco DevNet Creations](https://developer.cisco.com/site/devnetcreations/).
 
 ## Portfolio
 
@@ -30,7 +30,7 @@ BIERMAN is the app to manage and monitor BIER-enabled networks (BIER is a Cisco'
 
 #### Pathman
 
-Pathman was created to provide a way for path computation between routers that support BGP-LS and/or PCEP. Beside computation, deployment of paths is also available as well as big picture of the network. [Learn more](https://developer.cisco.com/site/devnetlabs/bgp/).
+Pathman was created to provide a way for path computation between routers that support BGP-LS and/or PCEP. Beside computation, deployment of paths is also available as well as big picture of the network. [Learn more](https://developer.cisco.com/site/devnetcreations/detail.gsp?submitId=171055).
 
 ![](../images/pathman1-topology.png)
 *Figure 3. Pathman (2014) - main screen*
@@ -52,7 +52,7 @@ AutoDev is a solution for managing IoT sensors on mobile vehicles. IoT VizConf (
 ### References
 Check out these and more apps running NeXt:
 
-* [Cisco DevNet Labs](https://developer.cisco.com/site/devnetlabs/)
+* [Cisco DevNet Creations](https://developer.cisco.com/site/devnetcreations/)
 * [BIERMAN](https://github.com/zverevalexei/bierman-gui)
 * [PCE-OpenFlow](https://github.com/CiscoDevNet/pceof-gui)
 * [Pathman](https://github.com/CiscoDevNet/Opendaylight-BGP-Pathman-apps)
