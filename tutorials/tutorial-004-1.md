@@ -86,7 +86,28 @@ console.log(john.wKg()); // 81.6466 (kg)
 Both ```_wLb``` and ```_wKg``` (pay attention to the underscore at the beginning) are a sort of *private* properties. We will not read them, write into them or work in any way with them *directly*. Instead, there are setters and getters like ```wLb``` and ```wKg``` that provide nice interfaces, letting us synchronize the values.
 
 ### Objects as properties
+If a property needs to be an object (or an array), you need to perform a special conversion into a return value of a function. Sounds complex?
 
+Take a look at the following piece of code:
+
+```JavaScript
+nx.define("ObjectExample", {
+	properties: {
+	
+		// this would break it
+		wrongList: {
+			value: []
+		},
+		
+		// correct implementation
+		correctList: {
+			value: function () {
+				return [];
+			}
+		}
+	}
+});
+```
  
 
 ## What's next?

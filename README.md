@@ -10,7 +10,8 @@ This is the tutorial to help you understand how NeXt UI Toolkit works and start 
 4. [Introduction to Object-Oriented Programming](/tutorials/tutorials-004.md)
     1. [Properties](/tutorials/tutorials-004-1.md)
     2. [Methods](/tutorials/tutorials-004-2.md)
-    3. [Events](/tutorials/tutorials-004-3.md)
+    3. [Inheritance](/tutorials/tutorials-004-3.md)
+5. [Events](/tutorials/tutorials-005.md)
 
 ## NeXt + Angular
 Integration NeXt in an Angular app
