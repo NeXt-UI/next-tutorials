@@ -91,24 +91,62 @@ If a property needs to be an object (or an array), you need to perform a special
 Take a look at the following piece of code:
 
 ```JavaScript
-nx.define("ObjectExample", {
+nx.define("ExampleClass", {
 	properties: {
 	
 		// this would break it
 		wrongList: {
+			// this object/array will point to the same memory cell for each instance of the class
 			value: []
 		},
 		
 		// correct implementation
 		correctList: {
 			value: function () {
+				// return what you need to return (object, array, whatever...)
 				return [];
 			}
 		}
 	}
 });
 ```
- 
+*"What do I need to complicate that for?"* - you would be reasonably asking, and I understand you. The reason is a weird to beginners way JavaScript handles objects (arrays are considered objects, too). In short, JavaScript *does not* copy the object, but rather it copies a pointer to the same memory address, so every instance of the above ```ExampleClass``` will link to the same ```wrongList```, but to the different instances of ```correctList```. Still sounds complex?
+
+The following chunk of code will illustrate my point. It continues the code listing above. 
+
+```JavaScript
+
+// let's create two different objects out of same class
+var example1 = new ExampleClass();
+var example2 = new ExampleClass();
+
+// write into different objects (wrongList)
+example1.wrongList().push("this will be");
+example2.wrongList().push("the same destination");
+
+// but the data ends up in the same place
+console.log("Example1 (wrongList): " + example1. wrongList());
+console.log("Example2 (wrongList): " + example2. wrongList());
+
+// add new element into different object (correctList)
+example1.correctList().push("destination #1");
+example2.correctList().push("destination #2");
+
+// different objects = different lists
+console.log("Example1 (correctList): " + example1. correctList());
+console.log("Example2 (correctList): " + example2. correctList());
+```
+
+The output results:
+
+```
+Example1 (wrongList): this will be,the same destination
+Example2 (wrongList): this will be,the same destination
+Example1 (correctList): destination #1
+Example2 (correctList): destination #2
+```
+
+No memory leaks, isn't that great? :)
 
 ## What's next?
 Let's get to know how to handle the properties with the methods. Next article will tell about that.
