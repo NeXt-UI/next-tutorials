@@ -36,6 +36,44 @@ var john = new Person();
 console.log(john.getInitials()); // will print "JS" to the browser's console
 ```
 
+[Codepen]()
+
+## Constructor
+A constructor is a method that runs when you instantiate a class with the keyword ```new```, like this:
+
+```JavaScript
+var foo = new Foo();
+```
+
+Constructor can serve you different purposes, and the most obvious is *initiate* properties with values before you touch them. *Initialization* is the key word, and that's why NeXt uses ```init``` as the name for the constructor method. 
+
+The following listing illustrates the way to create a basic constructor.
+
+```JavaScript
+nx.define("Person", {
+	"properties": {
+		// by default the name is an empty string
+		"name": ""
+	},
+	"methods": {
+		// this is the CONSTRUCTOR
+		"init": function(){
+			// assign a new value to the "name" property
+			this.name("Jack");
+		}
+	}
+}); 
+```
+
+Now that you've got the class with the constructor, go look how the initialized name looks like:
+
+```JavaScript
+var person = new Person();
+console.log( person.name() ); // "Jack"
+```
+
+[Codepen](http://codepen.io/NEXTSUPPORT/pen/rLgRJk)
+
 ## What's next?
 Ok, now that you are familiar with the properties and methods, let's move on to *inheritance* - the [OOP](tutorial-004.md) principle providing a way to extend or reuse an existing class. 
 

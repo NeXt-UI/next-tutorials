@@ -2,6 +2,8 @@
 
 This is the tutorial to help you understand how NeXt UI Toolkit works and start writing your code as soon as possible.
 
+Should you notice a typo or have a question, do not hesitate to contact the authors using the e-mail addresses at the bottom of the page.
+
 ## Tutorial Contents
 0. [Introduction](/tutorials/tutorial-000.md)
 1. [Download and install](/tutorials/tutorial-001.md)
@@ -22,5 +24,5 @@ The content of the tutorial goes under MIT license.
 See [LICENSE](./LICENSE) for more info.
 
 ## Credits
-* Alexei Zverev
-* Abuduweili Aikepear
+* Alexei Zverev <alzverev@cisco.com>
+* Abuduweili Aikepear <aaikepae@cisco.com>
