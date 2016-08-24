@@ -51,6 +51,8 @@ foo.fire("myEvent", "hey");
 
 In that case, the second parameter of the callback function will take the message (in this example, that was ```data```).
 
+[Codepen](http://codepen.io/NEXTSUPPORT/pen/OXZLZr)
+
 ## What's next?
 
 
