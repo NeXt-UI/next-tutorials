@@ -1,4 +1,4 @@
-# Properties of Classes in NeXt
+# Classes: Properties
 The previous article covered classes in NeXt and Object-Oriented Programming on the whole, and now we are going to obtain practical skills of configuring the object properties.
 
 ## Get started

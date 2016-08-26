@@ -1,4 +1,4 @@
-# Methods of Classes in NeXt
+# Classes: Methods
 Methods determine the way a developer interacts with the object. Methods usually operate [properties](tutorial-004-1.md), performing different actions, such as iterations, conversions, adding and removal, over them.
 
 ## Define a Simple Method

@@ -54,6 +54,6 @@ In that case, the second parameter of the callback function will take the messag
 [Codepen](http://codepen.io/NEXTSUPPORT/pen/OXZLZr)
 
 ## What's next?
-
+The next big chapter is customization. Customization of everything.
 
 [Read NEXT](tutorial-006.md)
