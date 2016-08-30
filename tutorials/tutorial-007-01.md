@@ -190,6 +190,6 @@ That's time to run the application. When you open the page, what you see should 
 We encourage you to play with properties in order to understand their nature. 
 
 ## What's Next?
-You have just created a generic topology. What we need to do is to adapt it for a use-case. Our next lesson will tell you about customization.
+You have just created a generic topology. What we need to do is to adapt it for a special use-case. Our next lesson will start the topic called *customization*.
 
 [Read NEXT](/tutorials/tutorial-007-02.md)
