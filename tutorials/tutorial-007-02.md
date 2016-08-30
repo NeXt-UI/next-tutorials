@@ -1,4 +1,4 @@
-# Customization of Icons
+# Custom Icons
 
 The first thing you see when you open a NeXt application is *nodes*. We created a set of networking icons that would satisfy your needs. But if you use NeXt for something irrelevant to networking, you are welcome to extend the standard icon list with a something from PNG, GIF or JPEG all the way to font icons. Yes, you can use even *font icons* like [Font Awesome](http://fontawesome.io) or [GLYPHICONS](http://glyphicons.com).
 

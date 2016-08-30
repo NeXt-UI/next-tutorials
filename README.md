@@ -19,7 +19,10 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 	2. [Property/method binding](/tutorials/tutorial-006-2.md)
 	3. [Event binding](/tutorials/tutorial-006-3.md)
 	4. [Using templates](/tutorials/tutorial-006-4.md)
-7. []()
+7. [Let's Play](/tutorials/tutorial-007.md) - building NeXt app from scratch
+	1. [Quickstart](/tutorials/tutorial-007-01.md)
+	2. [Custom icons](/tutorials/tutorial-007.md)
+	3. Extend class
 
 ## NeXt + Angular JS
 These tutorials to see the light of day once the main course is finished and to tell about integration of NeXt into an Angular JS app.
