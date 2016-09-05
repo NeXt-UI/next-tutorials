@@ -28,7 +28,7 @@ By default, ```john.name()``` will return the current value. If you pass a value
 
 Thus, there is a unified interface to set and get values, which is very useful.
 
-### Setter/getter
+## Setter/getter
 The standard way is cool, but in case you need to process the property's value before print or write it, you need to consider writing your own setter and getter. That's not as hard as it sounds like.
 
 Let's take a look at the example below. We added new properties "wLb" and "wKg", which represent weight in US pounds and in kilograms respectively. 
@@ -85,7 +85,7 @@ console.log(john.wKg()); // 81.6466 (kg)
 
 Both ```_wLb``` and ```_wKg``` (pay attention to the underscore at the beginning) are a sort of *private* properties. We will not read them, write into them or work in any way with them *directly*. Instead, there are setters and getters like ```wLb``` and ```wKg``` that provide nice interfaces, letting us synchronize the values.
 
-### Objects as properties
+## Objects as properties
 If a property needs to be an object (or an array), you need to perform a special conversion into a return value of a function. Sounds complex?
 
 Take a look at the following piece of code:
@@ -147,6 +147,9 @@ Example2 (correctList): destination #2
 ```
 
 No memory leaks, isn't that great? :)
+
+## Watchers
+
 
 ## What's next?
 Let's get to know how to handle the properties with the methods. Next article will tell about that.

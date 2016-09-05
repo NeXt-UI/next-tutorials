@@ -1,0 +1,12 @@
+Properties:
+watcher, dependencies, binding
+
+Paths
+Group
+Maps
+Nodeset
+Singleton class
+
+
+for next ui:
+templates, mvvm, mvc

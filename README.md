@@ -15,7 +15,7 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
     3. [Inheritance](/tutorials/tutorial-004-3.md)
 5. [Events](/tutorials/tutorial-005.md)
 6. [User Interface and DOM](/tutorials/tutorial-006.md)
-	1. [Format](/tutorials/tutorial-006-1.md)
+	1. [Concept of View](/tutorials/tutorial-006-1.md)
 	2. [Property/method binding](/tutorials/tutorial-006-2.md)
 	3. [Event binding](/tutorials/tutorial-006-3.md)
 	4. [Using templates](/tutorials/tutorial-006-4.md)
