@@ -14,6 +14,7 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
     2. [Methods](./tutorials/tutorial-004-2.md)
     3. [Inheritance](./tutorials/tutorial-004-3.md)
     4. [Static classes & methods](./tutorials/tutorial-004-4.md)
+    5. [Binding & dependencies](./tutorials/tutorial-004-5.md)
 5. [Events & watchers](./tutorials/tutorial-005.md)
 6. [User Interface and DOM](./tutorials/tutorial-006.md)
 	1. [Property/method binding](./tutorials/tutorial-006-01.md)

@@ -1,12 +1,14 @@
 Properties:
-watcher, dependencies, binding
+dependencies
+binding
 
-Paths
-Group
-Maps
-Nodeset
-Singleton class
+Paths - 003-04
+Group - 003-02
+Maps, layouts - 003-03
+Nodeset - 003-01
 
 
 for next ui:
-templates, mvvm, mvc
+templates - 006-03
+mvvm, mvc - 006-05
+view - 006-04
