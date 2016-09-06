@@ -9,7 +9,7 @@ NeXt incorporates the two-way binding.
 Nuff said. How about a sample?
 
 ## Example
-## Code
+### Code
 We are continuing to explore ```nx.ui.Component```. 
 
 ```JavaScript
@@ -50,10 +50,12 @@ On the whole, that's pretty much the exact same thing we saw in the previous art
 
 Essentially, ```{#...}``` is just a way to interpolate a variable's value into a string. Instead of ```...``` you should use the name of expected property. Therefore ```{#name}``` is the way to display the value of the property in the view.
 
-## Screenshot
-This's what the code should render. When you are typing a name, the caption underneath will be changing.
+### Screenshot
+This's what the code should render into. When you are typing a name, the caption underneath will be changing.
 
 ![](../images/tutorial-006-01/name-form.png)
+
+Check out [Codepen](http://codepen.io/NEXTSUPPORT/pen/XjJBJm) example.
 
 ## What's Next?
 We've learned the way to bind properties, now let's proceed to the methods.
