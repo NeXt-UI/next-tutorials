@@ -148,8 +148,6 @@ Example2 (correctList): destination #2
 
 No memory leaks, isn't that great? :)
 
-## Watchers
-
 
 ## What's next?
 Let's get to know how to handle the properties with the methods. Next article will tell about that.

@@ -53,6 +53,35 @@ In that case, the second parameter of the callback function will take the messag
 
 [Codepen](http://codepen.io/NEXTSUPPORT/pen/OXZLZr)
 
+## Watchers
+A watcher is a type of event listener that tracks any change of variable's value.
+
+```JavaScript
+nx.define("WatcherExample", nx.Observable, {
+	"properties": {
+		"name": {
+			"value": "John",
+			/**
+				pName: property name
+				pValue: new value
+				pOldValue: old value
+			*/
+			"watcher": function(pName, pValue, pOldValue){
+				console.log("### WATCHER TRIGGERRED ###");
+				console.log(pName, pValue, pOldValue);
+			}
+		}
+	}
+});
+
+var foo = new WatcherExample();
+foo.name("Jack");
+foo.name("Sam");
+```
+
+```nx.Observable``` provides special interfaces for watchers, that's why you need to inherit the class. Watcher is obviously defined by ```watcher``` keyword in a property object. And the callback function assigned to the watcher, will be invoked once the property setter detects a change.
+
+
 ## What's next?
 The next chapter will tell you about UI capabilities of NeXt and its way to work with DOM model.
 
