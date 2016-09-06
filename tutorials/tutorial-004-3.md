@@ -146,6 +146,6 @@ We can run both methods at the same time. Cool, isn't it?
 The example with the constructor shows, because you will mostly need to partly override exactly constructors.
 
 ## What's next?
-Events is what makes JavaScript JavaScript. That will be the conslusive article, which will be followed by tutorial on how to create and customize topologies.
+Singleton classes is the topic of our next lesson. 
 
-[Read NEXT](tutorial-005.md)
+[Read NEXT](tutorial-004-4.md)
