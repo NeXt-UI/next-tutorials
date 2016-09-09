@@ -52,7 +52,7 @@ The rule about ```new``` keyword applies to classes with static members, too.
 [Demo on Codepen](http://codepen.io/NEXTSUPPORT/pen/kkYAxq)
 
 ## Why?
-Sometimes programmers use singletons as configuration across the app, for utility classes and testing. The case is up to you, but we recommend you to read more materials on object-oriented programming.
+Sometimes programmers use singletons as configuration across the app, for utility classes and testing. The case is up to you, we'd recommend you to read more materials on object-oriented programming if you are unfamiliar with that.
 
 ## What's next?
 Events is what makes JavaScript JavaScript. That will be the conslusive article, which will be followed by tutorial on how to create and customize topologies.

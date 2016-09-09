@@ -12,3 +12,9 @@ for next ui:
 templates - 006-03
 mvvm, mvc - 006-05
 view - 006-04
+
+
+tutorial-004-05:
+simplify binding: merge the 2nd section into the 1st
+why it inherits nx.Observable
+
