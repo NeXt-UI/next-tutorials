@@ -57,7 +57,11 @@ In the detailed example, take a look at "nodeSetConfig" please. That's how we se
 TBD: found a bug
 
 ## Important to Know
-That's important to know that IDs namespace of nodes and nodesets overlay each other. That means you cannot have node with ```id=123``` and a nodeset with the same ID.
+That's important to know that:
+
+* IDs namespace of nodes and nodesets overlay each other. That means you cannot have node with ```id=123``` and a nodeset with the same ID.
+* *[Autolayout](tutorial-003-03.md)* does not work for nodesets. There's a [hack on JSfiddle](https://jsfiddle.net/nextsupport/4Lr3kuos/). 
+
 
 ## What's next?
 TBD
