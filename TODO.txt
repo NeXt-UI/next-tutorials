@@ -9,7 +9,7 @@ Nodeset - 003-01
 
 
 for next ui:
-templates - 006-03
+templates - 006-03 +
 mvvm, mvc - 006-05
 view - 006-04
 
@@ -18,3 +18,6 @@ tutorial-004-05:
 simplify binding: merge the 2nd section into the 1st
 why it inherits nx.Observable
 
+
+create codepen for 003-01 (nodeset)
+report a bug on collapse of nodes: if NodeSetConfig -> collapsed: false, then the nodeset does not come expanded, but simply zooms in
