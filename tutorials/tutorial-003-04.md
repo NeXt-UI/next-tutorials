@@ -1,111 +1,113 @@
-# Path Drawing
-Paths are as important to NeXt as they are to networking. 
-
-## Layers Aside
-You'll learn more about the layers and how we use them in NeXt. What you need to know now is that NeXt automatically sorts instances of the standard classes (such as nodes, links, node set etc.) into special collections, called layers. You can get the list of nodes from the *node layer*, list of links from the *link layer* and so on. You're following the idea, don't you?
+# Groups
+Groups in NeXt is another way to show that nodes belong to the same party. The group highlights selected nodes with a background color that matches it. Let's move on to see the example.
 
 ## Example
-Let's imagine we've got such a crazy topology:
-
-![](../images/tutorial-003-04/topology-image.png)
-
-The code will be available below.
-
-### Hop list
-
-What path are we going to take? Let it be San Francisco for New Jersey through Los Angeles and Houston (SF -> LA -> Houston -> NJ). The array that represents the path would look like that:
+### Topology data
+We are going to start with the topology data:
 
 ```JavaScript
-var pathHops = [
-	"San Francisco",
-	"Los Angeles",
-	"Houston",
-	"New Jersey"
-]
+var topologyData = {
+	// define 3 nodess
+	"nodes": [
+		{
+			"id": 0,
+			"name": "San Francisco"
+		},
+		{
+			"id": 1,
+			"name": "Los Angeles"
+		},
+		{
+			"id": 2,
+			"name": "San Diego"
+		},
+		{
+			"id": 3,
+			"name": "Dallas"
+		},
+		{
+			"id": 4,
+			"name": "San Antonio"
+		}
+	],
+	// and links
+	"links": [
+		{
+			"source": "San Francisco",
+			"target": "Los Angeles"
+		},
+		{
+			"source": "San Francisco",
+			"target": "Dallas"
+		},
+		{
+			"source": "San Antonio",
+			"target": "Dallas"
+		},
+		{
+			"source": "San Diego",
+			"target": "Los Angeles"
+		},
+		{
+			"source": "San Antonio",
+			"target": "San Diego"
+		}
+	]
+};
 ```
 
-It is just the hop list in a correct order.
+That's a pentagon that looks like this:
 
-### Get link list
-Let's write a function that pulls up the list of link instances. Link instance is the object instanciated from ```nx.graphic.Topology.Link``` that represents a specific link. Why do we need the link list? We use the list to hightlight the path on the topology, simply connecting the link by link to find out the pattern of the path.
+![](../images/tutorial-003-02/topology-pentagon.png)
 
-```JavaScript
-function getLinkList(topology, nodesDict, pathHops){
-
-	var linkList = [];
-
-	for(var i = 0; i < pathHops.length - 1; i++){
-
-		var srcNode = nodesDict.getItem(pathHops[i]);
-		var destNode = nodesDict.getItem(pathHops[i + 1]);
-
-		var links = getLinksBetweenNodes(topology, srcNode, destNode);
-
-		linkList.push(links[0]);
-	}
-
-	return linkList;
-}
-```
-
-Did you notice we have called ```getLinksBetweenNodes```? That function does not exist yet, so we're about to write it ourselves.
-
-### Get links between nodes
-
-We need the following function to get the list of links between the two neighbor nodes. Our example assumes we use single-link connections.
+### Add groups
+Assuming you have the topology configuration and it is stored in ```topo``` object, we're going to create a simple [event handler](tutorial-005.md). You may be not familiar with what that is, but the long story short, that's a function that NeXt invokes when something happens. In our case, that *something* is the point when the topology was generated. You'll get to know about event handlers more quite soon, so let's just keep things simple for now.
 
 ```JavaScript
-function getLinksBetweenNodes(topo, src, dest){
+topology.on("topologyGenerated", function() {
 
-	var linkSet = topo.getLinkSet(src.id(), dest.id());
-	if (linkSet !== null) {
-		return nx.util.values(linkSet.links());
-	}
-	return false;
-}
-```
-
-### Draw the path!
-
-Now that we've got the prerequisite up and ready, we're up to use it to render the path from San Francisco to New Jersey.
-
-```JavaScript
-topology.on("topologyGenerated", function(){
-
-	// path layer - need to draw paths
-	var pathLayer = topology.getLayer("paths");
-	// node dictionary to get nodes by name (by default only 'id' is available)
+	var groupsLayer = topology.getLayer("groups");
 	var nodesDict = topology.getLayer("nodes").nodeDictionary();
 
-	var linkList = getLinkList(topology, nodesDict, pathHops);
-
-	var pathInst = new nx.graphic.Topology.Path({
-		"pathWidth": 3,
-		"links": linkList,
-		"arrow": "cap",
-		"pathStyle": {
-			"fill": "#f00"
-		}
+	var nodes1 = [nodesDict.getItem("San Francisco"), nodesDict.getItem("Los Angeles"), nodesDict.getItem("San Diego")];
+	var group1 = groupsLayer.addGroup({
+		nodes: nodes1,
+		label: 'California',
+		color: '#f00'
 	});
 
-	pathLayer.addPath(pathInst);
+	var nodes2 = [nodesDict.getItem("Dallas"), nodesDict.getItem("San Antonio")];
+	var group2 = groupsLayer.addGroup({
+		nodes: nodes2,
+		label: 'Texas',
+		color: '#0f0'
+	});
 
 });
 ```
 
-Thus, you see that the path is a child of ```nx.graphic.Topology.Path```. You are encouraged to customize color, width of stroke and even the shape of the path.
+```topo.on``` sets the event listener (asks NeXt to notify this piece of code when something happens). ```topologyGenerated``` is the name of the event we're tracking. The built-in event names are well-known and described. The second parameter is an anonymous function, so called *callback function*. It will be called when the event takes place.
 
-To customize the way the path is rendered, look over ```draw``` method in ```nx.graphic.Topology.Path``` class.
+Then we do the same operations we did for path drawing: get layer, get nodes' dictionary (to conveniently get them).
 
-## Remove path
-To remove the established path, you need keep the instance of path class and run the following command on it:
+```groupsLayer.addGroup``` has a simple configuration:
 
-```JavaScript
-pathLayer.removePath(pathInst);
-```
+* **nodes** is an array of nodes' instances
+* **label** (optional) is a label assigned to the group and displayed next to it
+* **color** is the background color of the group in RGB hex format 
 
-## Demo
-![](../images/tutorial-003-04/topology-path.png)
+See full code listing on [Codepen]()
+
+### Result
+Finally, you should be seeing something like this:
+
+![](../images/tutorial-003-02/topology-grouped.png)
+
+The green and red areas are the groups.
+
+## Remove Node Groups
+TBD
 
 ## What's next?
-blah blah
+
+

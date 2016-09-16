@@ -19,7 +19,5 @@ simplify binding: merge the 2nd section into the 1st
 why it inherits nx.Observable
 
 
-create codepen for 003-01 (nodeset)
-report a bug on collapse of nodes: if NodeSetConfig -> collapsed: false, then the nodeset does not come expanded, but simply zooms in
-propose a feature to get the node by identity key or a different attribute/prop
-report a node dictionary bug
+create codepen for articles in 003
+I recall there was a bug to register the DP... check with Abu
