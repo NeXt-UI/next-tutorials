@@ -14,7 +14,7 @@ Once you have Bower installed, you can proceed to downloading NeXt framework. Go
 Bower:
 
 ```
-npm install NeXt
+bower install NeXt
 ```
 
 Bower creates a folder named /bower_components/ under the working folder, which is a container for all the apps, or libraries, that you download with Bower. Navigate under /next-bower/ and you'll see "css" and "js" folders that contain a bunch of necessary files. You'll need to link only [minified versions](https://en.wikipedia.org/wiki/Minification_(programming)) of them: /css/next.min.css and /js/next.min.js.
@@ -28,6 +28,15 @@ In <head> container of your HTML page, link the files this way:
     <script type="text/javascript" src="bower_components/next-bower/js/next.min.js"></script>
     ...
 </head>
+```
+
+### Setup with NPM
+If you desire to install NeXt with NPM, you should be aware that it uses the same distribution package tha Bower does.
+
+To install NeXt via NPM, type the command and run it:
+
+```
+npm install next-ui
 ```
 
 ### Manual Setup
