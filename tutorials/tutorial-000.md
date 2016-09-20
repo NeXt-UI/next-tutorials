@@ -8,7 +8,7 @@ We highly recommend using NeXt UI with [AngularJS](http://angularjs.org): this f
 
 ## Portfolio
 
-NeXt has been a life vest for a bunch of open-source efforts at Cisco. Some of apps were built entirely in NeXt (by means of NeXt UI component), while the rest tend to employ AngularJS as a basement with NeXt's topology component.
+NeXt has been a life vest for a bunch of open-source SDN efforts at [Cisco](https://cisco.com). Some of apps were built entirely in NeXt (by means of NeXt UI component), while the rest tend to employ AngularJS as a basement with NeXt's topology component. 
 
 Check out a few awesome apps that we at Cisco have developed to boost SDN initiative.
  
@@ -35,7 +35,7 @@ Pathman was created to provide a way for path computation between routers that s
 ![](../images/pathman1-topology.png)
 *Figure 3. Pathman (2014) - main screen*
 
-#### Pathman Segment Routing
+#### Pathman SR
 
 Pathman Segment Routing (Pathman SR) is a successor of Pathman, made with purpose to compute and deploy paths in SR-enabled network. [Learn more](https://github.com/CiscoDevNet/pathman-sr).
 
@@ -50,13 +50,13 @@ AutoDev is a solution for managing IoT sensors on mobile vehicles. IoT VizConf (
 *Figure 5. AutoDev - main screen*
 
 ### References
-Check out these and more apps running NeXt:
+Check out these and other awesome apps running NeXt:
 
-* [Cisco DevNet Creations](https://developer.cisco.com/site/devnetcreations/)
 * [BIERMAN](https://github.com/zverevalexei/bierman-gui)
 * [PCE-OpenFlow](https://github.com/CiscoDevNet/pceof-gui)
 * [Pathman](https://github.com/CiscoDevNet/Opendaylight-BGP-Pathman-apps)
 * [AutoDev](https://github.com/CiscoDevNet/iotvizconf)
+* [Cisco DevNet Creations](https://developer.cisco.com/site/devnetcreations/) (portal of open-source applications)
 
 ## Good to start?
 Now that you know what NeXt is created for, how about spin it up in your environment?
