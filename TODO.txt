@@ -14,6 +14,12 @@ mvvm, mvc - 006-05
 view - 006-04
 
 
+
+
+Layouts -> world layout (003-06)
+Figure out the action plan to add the layout to bower distribution. Then add the section to the article.
+
+
 tutorial-004-05:
 simplify binding: merge the 2nd section into the 1st
 why it inherits nx.Observable
@@ -21,3 +27,8 @@ why it inherits nx.Observable
 
 create codepen for articles in 003
 I recall there was a bug to register the DP... check with Abu
+path by hops/Nodeset
+no world map JSON file in bower distribution
+
+for events:
+don’t forget to register them (before this.fire)

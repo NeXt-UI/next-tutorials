@@ -31,7 +31,7 @@ In <head> container of your HTML page, link the files this way:
 ```
 
 ### Setup with NPM
-If you desire to install NeXt with NPM, you should be aware that it uses the same distribution package tha Bower does.
+If you desire to install NeXt with NPM, you should be aware that it uses the same distribution package that Bower does.
 
 To install NeXt via NPM, type the command and run it:
 

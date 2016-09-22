@@ -13,9 +13,14 @@ These are layouts NeXt is served with. We do recommend you to familiarize yousel
 ### NeXt Force
 
 ### US Map
+Here's how it looks like.
+
+![](../images/tutorial-003-06/usmap.png)
 
 ### World Map
+Current Bower distribution does not contain the world map's layout distribution. This section will be completed later.
 
+TBD
 
 ## Create Your Layout
 

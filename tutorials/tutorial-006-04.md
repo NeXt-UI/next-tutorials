@@ -1,3 +1,1 @@
 # View "Inheritance"
-
-TBD

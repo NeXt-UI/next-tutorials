@@ -2,7 +2,7 @@
 
 This is the tutorial to help you understand how NeXt UI Toolkit works and start writing your code as soon as possible.
 
-Should you notice a typo or have a question, do not hesitate to contact the authors using the e-mail addresses at the bottom of the page.
+Should you notice a typo or have a question, do not hesitate to contact the authors at <next-dev@lists.opendaylight.org>.
 
 ## Tutorial Contents
 0. [Introduction](./tutorials/tutorial-000.md)
@@ -34,8 +34,14 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 	3. [Action panel](./tutorials/tutorial-007-03.md)
 	4. [Path drawing](./tutorials/tutorial-007-04.md)
 
-## NeXt + Angular JS
-These tutorials to see the light of day once the main course is finished and to tell about integration of NeXt into an Angular JS app.
+## FAQ
+We are happy to answer you questions. So we listed the most frequent of them in a separate section: [Frequently Asked Questions](tutorials/faq.md).
+
+## For Contributors
+The new contributors are very welcome, and here's how to become one: [Contributors's Guide](tutorials/contributors-guide.md).
+
+## NeXt + AngularJS
+As we say, NeXt pairs well with AngularJS. No tutorials are available for this awesome duo at the moment, but you may want to check out our portfolio in the [Introduction](tutorials/tutorial-000.md), since it has several AngularJS+NeXt apps.
 
 ## License
 The content of the tutorial goes under MIT license.
@@ -43,5 +49,5 @@ The content of the tutorial goes under MIT license.
 See [LICENSE](./LICENSE) for more info.
 
 ## Credits
-* Alexei Zverev <alzverev@cisco.com>
-* Abuduweili Aikepear <aaikepae@cisco.com>
+* Alexei Zverev
+* Abuduweili Aikepear
