@@ -1,35 +1,14 @@
-Properties:
-dependencies
-binding
-
-Paths - 003-04
-Group - 003-02
-Maps, layouts - 003-03
-Nodeset - 003-01
-
-
-for next ui:
-mvvm, mvc - 006-05
-view - 006-04
-
-006-04: examples of extended nodes
-
-
-Layouts -> world layout (003-06)
-Figure out the action plan to add the layout to bower distribution. Then add the section to the article.
-
-
-tutorial-004-05:
+dependencies/binding
 simplify binding: merge the 2nd section into the 1st
 why it inherits nx.Observable
 
+Data processors: 003-05 (describe built-in ones)
+Layouts - 003-06 (describe the built-in ones)
+mvvm - 006-05
+path: add info on sourceNode
+extended nodes s006-04: example from PCE-OF
 
-create codepen for articles in 003
-I recall there was a bug to register the DP... check with Abu
-path by hops/Nodeset
-no world map JSON file in bower distribution
+create codepens for articles in 003
 
-for events:
-don’t forget to register them (before this.fire)
-
-in the walk-thru guide, we’ve got two Saturns — make sure to fix that
+for events (005)
+don’t forget to register events (before this.fire)

@@ -71,7 +71,7 @@ var topologyData = {
 		},
 		{
 			"id": 3,
-			"name": "Saturn"
+			"name": "Pluto"
 		}
 	],
 	"links": [

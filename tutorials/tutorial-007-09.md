@@ -200,7 +200,7 @@ These fellows do all the job: they make the badge visible and invisible.
 ```
 
 #### Topology data
-Oops, we have almost forgotten to add the new property to topology data: ```status```. Make sure you did it like that:
+Oops, we have almost forgotten to add the new property to topology data: ```status```. Make sure you set the appropriate status to all the nodes like that:
 
 ##### topology_data.js (exceprt)
 ```JavaScript
@@ -212,3 +212,6 @@ Oops, we have almost forgotten to add the new property to topology data: ```stat
 }
 // ...
 ```
+
+## The Result
+TBD. need to decide on articles' ordering first
