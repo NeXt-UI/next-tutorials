@@ -1,4 +1,4 @@
-# UI Class Extension
+# Class Extension
 
 NeXt provides a sophisticated way to extend standard objects, such as nodes, links and tooltips (those windows you make pop up when you click a node/link).
 
@@ -31,33 +31,39 @@ You must remember that ```Bar``` will contain the old properties, override some 
 
 ```JSON
 {
-	"name": "Jack",
-	"cool": false,
-	"newProp": "I'm new!!!",
-	"oldProp": "Sooo old"
+	"name": "Jack", // inherited & overriden
+	"cool": false, // inherited & overriden
+	"newProp": "I'm new!!!", // new prop
+	"oldProp": "Sooo old" // inherited
 }
 ```
 
-You should also keep in mind that the same rules apply to methods. But methods differ a little from properties, because they can also keep executable code from parent method and invoke it like that:
+You should also keep in mind that the same rules apply to methods. Methods differ a little from properties, though, because they can also keep executable code from parent method and invoke it like that:
 
 ```
 // ...
 someMethod: function(args){
+	// executes inherited parent's function over the new arguments
 	this.inhertited(args);
+	
+	// your code goes here...
+	
 }
 // ...
 ```
 
-Now that you recalled that, that's not a surprise that the extension of UI classes is simply class inheritance.
+Now that you recalled that, that's not a surprise that the extension of classes is simply class inheritance.
 
-## The Task
-The task is going to come from real life. In networking some active devices might shut down in an abnormal situation (power outage etc.). Unless the application explicitly depitcs that, a network engineer may think the network runs well. We need to alert the engineer about the device status. In order to do that, let's display a tiny red icon next to the device if the status is "down".
+## Task
+The task is going to come from real life. In networking some active devices might shut down in an abnormal situation (power outage etc.). Unless the application explicitly depitcs that, a network engineer may think the network runs well. We need to alert the engineer about the device's status. In order to do that, let's display a tiny red icon next to the device if the device has gone down.
 
 ## Implementation
 ### "ExtendedNode" Class
 First and foremost, we need to "extend" the base node's class (```nx.graphic.Topology.Node```).
 
-We are going to reveal the prepared chunk of code below. When you look over it, see detailed description underneath.
+We are going to reveal the prepared chunk of code below. When you finish looking over it, see detailed description underneath.
+
+This code will go over into a new file, ```/app/extended-node.js```.
 
 ```JavaScript
 nx.define('ExtendedNode', nx.graphic.Topology.Node, {
@@ -117,6 +123,8 @@ nx.define('ExtendedNode', nx.graphic.Topology.Node, {
 });
 ```
 
+The close-up for each piece of code goes below:
+
 #### Initialization
 
 Take a look at the line 1:
@@ -150,13 +158,13 @@ view: function (view) {
 	return view;
 }
 ```
-Basically, this appends a built-in NeXt's ```nx.graphic.Circle``` to the node's view. Note there's the property ```name``` to retrieve the component's instance from methods later on.
+Basically, this appends a built-in NeXt's ```nx.graphic.Circle``` to the node's view. Note there's the property ```name```, used to retrieve the component's instance from methods later on.
 
 By default, the "badge" is invisible (we will turn in on for each node). 
 
 #### *setModel* Method
-We are going to override one of the essential built-in methods: ```setModel```. We will need to call ```this.inherited(model)```, because it has a piece of logic to initialize properties. When we make sure it's done, we put in our  
-
+We are going to override one of the essential built-in methods: ```setModel```. This function sets the passed into it model (object, containing properties) to the respective properties.
+The start line is here: once the properties are set, we'll be able to make the badge show up.
 
 ```JavaScript
 // called when the model is about to initialize
@@ -164,16 +172,18 @@ We are going to override one of the essential built-in methods: ```setModel```. 
 	this.inherited(model);
 
 	// draw/not draw the badge based on status
-	if (this.model().get("status") === "down")
-		this._showDownBadge();
-	else
+	if (this.model().get("isConnected"))
 		this._hideDownBadge();
+	else
+		this._showDownBadge();
 
 }
 ```
 
+The two functions used here - ```_showDownBadge``` and ```_hideDownBadge ``` - do not exist yet. That will be the next task.
+
 #### The Stars: Show/hide methods
-These fellows do all the job: they make the badge visible and invisible.
+These fellows do all the job: they make the badge visible or invisible.
 
 ```JavaScript
 // display the red badge
@@ -199,19 +209,57 @@ These fellows do all the job: they make the badge visible and invisible.
 }
 ```
 
-#### Topology data
-Oops, we have almost forgotten to add the new property to topology data: ```status```. Make sure you set the appropriate status to all the nodes like that:
+### Link The Class
+Make sure the file is linked in HTML like that:
 
-##### topology_data.js (exceprt)
+```HTML
+<!-- ... -->
+<script type="text/javascript" src="app/topology_data.js"></script>
+<script type="text/javascript" src="app/action-panel.js"></script>
+<script type="text/javascript" src="app/extended-node.js"></script>
+<script type="text/javascript" src="app/topology.js"></script>
+<script type="text/javascript" src="app/main.js"></script>
+<!-- ... -->
+```
+
+That's the third script.
+
+You created the class for nodes, however the topology knows nothing of it. What you need to do is to declare it in the ```nodeInstanceClass``` attribute in topology's configuration:
+
+#### /app/topology.js
+```JavaScript
+// ...
+
+// extended node
+"nodeInstanceClass": "ExtendedNode"
+
+// ...
+```
+
+### Topology data
+Oops, we have almost forgotten to add the new property to topology data: ```isConnected```. Make sure you set the appropriate status to all the nodes like that:
+
+#### topology_data.js (exceprt)
 ```JavaScript
 // ...
 {
 	"id": 2,
 	"name": "Saturn",
-	"status": "down" // can also be "up"
+	"isConnected": false // can also be true
 }
 // ...
 ```
 
-## The Result
-TBD. need to decide on articles' ordering first
+## Result
+Step 5 has gone! That's what you have done:
+
+![](../images/tutorial-007-05/device-down.png)
+
+Yep, those tiny red pimples on aliens' faces are our "badges" that say "this guy has poor connection".
+
+Congratulations!
+
+## What's next?
+We are going to add more interaction and redefine a few built-in events. Now you decide which alien goes down :)
+
+[Read NEXT](../tutorial-007-06.md)
