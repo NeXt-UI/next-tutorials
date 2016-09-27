@@ -4,7 +4,7 @@
 	        content: [
 	            {
 	                tag: "button",
-	                content: "Draw Random Path",
+	                content: "Draw Path",
 	                events: {
 	                    click: "{#onDrawPath}"
 	                }

@@ -11,7 +11,7 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 3. [Create your first topology](./tutorials/tutorial-003.md)
     1. [Node sets](./tutorials/tutorial-003-01.md)
     2. [Layers](./tutorials/tutorial-003-02.md)
-    3. [Node sets](./tutorials/tutorial-003-03.md)
+    3. [Path Drawing](./tutorials/tutorial-003-03.md)
     4. [Groups](./tutorials/tutorial-003-04.md)
     5. [Data processors](./tutorials/tutorial-003-05.md)
     6. [Layots](./tutorials/tutorial-003-06.md)
