@@ -11,10 +11,11 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 3. [Create your first topology](./tutorials/tutorial-003.md)
     1. [Node sets](./tutorials/tutorial-003-01.md)
     2. [Layers](./tutorials/tutorial-003-02.md)
-    3. [Path Drawing](./tutorials/tutorial-003-03.md)
+    3. [Path drawing](./tutorials/tutorial-003-03.md)
     4. [Groups](./tutorials/tutorial-003-04.md)
     5. [Data processors](./tutorials/tutorial-003-05.md)
     6. [Layots](./tutorials/tutorial-003-06.md)
+    7. [Scene](./tutorials/tutorial-003-06.md)
 4. [Introduction to Object-Oriented Programming](/tutorials/tutorial-004.md)
     1. [Properties](./tutorials/tutorial-004-1.md)
     2. [Methods](./tutorials/tutorial-004-2.md)
@@ -33,8 +34,9 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 	2. [Custom icons](./tutorials/tutorial-007-02.md)
 	3. [Action panel](./tutorials/tutorial-007-03.md)
 	4. [Path drawing](./tutorials/tutorial-007-04.md)
-	5. [Class Extension](./tutorials/tutorial-007-05.md)
-	6. [Scene Manipulation](./tutorials/tutorial-007-05.md)
+	5. [Class extension](./tutorials/tutorial-007-05.md)
+	6. [Scene manipulation](./tutorials/tutorial-007-06.md)
+	7. [Tooltip policy customization](./tutorials/tutorial-007-07.md)
 
 ## FAQ
 We are happy to answer you questions. So we listed the most frequent of them in a separate section: [Frequently Asked Questions](tutorials/faq.md).
