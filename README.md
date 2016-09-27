@@ -15,7 +15,7 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
     4. [Groups](./tutorials/tutorial-003-04.md)
     5. [Data processors](./tutorials/tutorial-003-05.md)
     6. [Layots](./tutorials/tutorial-003-06.md)
-    7. [Scene](./tutorials/tutorial-003-06.md)
+    7. [Scene](./tutorials/tutorial-003-07.md)
 4. [Introduction to Object-Oriented Programming](/tutorials/tutorial-004.md)
     1. [Properties](./tutorials/tutorial-004-1.md)
     2. [Methods](./tutorials/tutorial-004-2.md)
@@ -39,7 +39,7 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 	7. [Tooltip policy customization](./tutorials/tutorial-007-07.md)
 
 ## FAQ
-We are happy to answer you questions. So we listed the most frequent of them in a separate section: [Frequently Asked Questions](tutorials/faq.md).
+We are happy to answer your questions. So we listed the most frequent of them in a separate section: [Frequently Asked Questions](tutorials/faq.md).
 
 ## For Contributors
 The new contributors are very welcome, and here's how to become one: [Contributors's Guide](tutorials/contributors-guide.md).
