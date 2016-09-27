@@ -33,6 +33,7 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 	2. [Custom icons](./tutorials/tutorial-007-02.md)
 	3. [Action panel](./tutorials/tutorial-007-03.md)
 	4. [Path drawing](./tutorials/tutorial-007-04.md)
+	5. 
 
 ## FAQ
 We are happy to answer you questions. So we listed the most frequent of them in a separate section: [Frequently Asked Questions](tutorials/faq.md).

@@ -9,11 +9,10 @@ Nodeset - 003-01
 
 
 for next ui:
-templates - 006-03 +
 mvvm, mvc - 006-05
 view - 006-04
 
-
+006-04: examples of extended nodes
 
 
 Layouts -> world layout (003-06)
@@ -32,3 +31,5 @@ no world map JSON file in bower distribution
 
 for events:
 don’t forget to register them (before this.fire)
+
+in the walk-thru guide, we’ve got two Saturns — make sure to fix that
