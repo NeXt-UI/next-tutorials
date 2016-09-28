@@ -8,6 +8,7 @@ These are layouts NeXt is served with. We do recommend you to familiarize yousel
 
 ### Enterprise Network
 
+
 ### Hierarchical Layout
 
 ### NeXt Force
@@ -18,13 +19,9 @@ Here's how it looks like.
 ![](../images/tutorial-003-06/usmap.png)
 
 ### World Map
-Current Bower distribution does not contain the world map's layout distribution. This section will be completed later.
-
-TBD
+The distributed version of NeXt does not contain the World Map layout anymore, because it slows the app's performance down.
 
 ## Create Your Layout
+### Create Map Layout
 
-
-
-### Create Your Map Layouts
-A special category is map layouts. 
+### Create Simple Layout

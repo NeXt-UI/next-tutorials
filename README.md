@@ -48,7 +48,7 @@ The new contributors are very welcome, and here's how to become one: [Contributo
 As we say, NeXt pairs well with AngularJS. No tutorials are available for this awesome duo at the moment, but you may want to check out our portfolio in the [Introduction](tutorials/tutorial-000.md), since it has several AngularJS+NeXt apps.
 
 ## License
-The content of the tutorial goes under MIT license.
+The content of the tutorial goes under Eclipse Public License - v 1.0.
 
 See [LICENSE](./LICENSE) for more info.
 
