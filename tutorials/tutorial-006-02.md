@@ -70,4 +70,4 @@ The result should like that and is available on [Codepen](http://codepen.io/NEXT
 ## What's next?
 Some routine could be simplified. Use templates to achieve it.
 
-[Read NEXT](./tutotial-006-03.md)
+[Read NEXT](./tutorial-006-03.md)
