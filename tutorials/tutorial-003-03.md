@@ -83,6 +83,7 @@ topology.on("topologyGenerated", function(){
 		"pathWidth": 3,
 		"links": linkList,
 		"arrow": "cap",
+		"sourceNode": nodesDict.toArray()[0],
 		"pathStyle": {
 			"fill": "#f00"
 		}
@@ -93,7 +94,7 @@ topology.on("topologyGenerated", function(){
 });
 ```
 
-Thus, you see that the path is a child of ```nx.graphic.Topology.Path```. You are encouraged to customize color, width of stroke and even the shape of the path.
+Thus, you see that the path is a child of ```nx.graphic.Topology.Path```. You are encouraged to customize color, width of stroke and even the shape of the path. The ```sourceNode``` attribute declares, obviously, the source node. In case if you have just one link in your path, a direction error may occur: the path's direction depends on a link's direction. So, unless you have initialized ```sourceNode```, path may take the opposite direction.
 
 To customize the way the path is rendered, look over ```draw``` method in ```nx.graphic.Topology.Path``` class.
 
@@ -108,4 +109,6 @@ pathLayer.removePath(pathInst);
 ![](../images/tutorial-003-04/topology-path.png)
 
 ## What's next?
-blah blah
+The next tutorial will lead you through grouping of nodes.
+
+[Read NEXT](./tutorial-003-04.md)

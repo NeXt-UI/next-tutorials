@@ -5,7 +5,6 @@ why it inherits nx.Observable
 Data processors: 003-05 (describe built-in ones)
 Layouts - 003-06 (describe the built-in ones)
 mvvm - 006-05
-path: add info on sourceNode
 extended nodes s006-04: example from PCE-OF
 
 create codepens for articles in 003
