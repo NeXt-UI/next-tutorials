@@ -29,6 +29,7 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 	3. [Using templates](./tutorials/tutorial-006-03.md)
 	4. [Inheritance of views](./tutorials/tutorial-006-04.md)
 	5. [MVVM](./tutorials/tutorial-006-05.md)
+	6. [Stage](./tutorials/tutorial-006-06.md)
 7. [Let's Play](./tutorials/tutorial-007.md) - building NeXt app from scratch
 	1. [Quickstart](./tutorials/tutorial-007-01.md)
 	2. [Custom icons](./tutorials/tutorial-007-02.md)
