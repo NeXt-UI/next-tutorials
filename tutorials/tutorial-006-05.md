@@ -20,7 +20,12 @@ Complex and serious (*I know, that sounds too general -- however you should thin
 One more thing you should consider is the environment you work in. If you have already chosen a framework that employs MVVM or MVC, additional MVVM layer by NeXt will be overengineering.
 
 ## Typical architecture & Example
+
+### Task
+We are going to create a simple interface to display a contact list.
+
 ### Create Model
+We are about to create a model that will contain the contact data.
 
 ```JavaScript
 nx.define("ContactModel", {
@@ -48,6 +53,7 @@ nx.define("ContactModel", {
 ```
 
 ### Create View
+The view will represent the contact list, as you could expect. 
 
 ```JavaScript
 nx.define('ContactView', nx.ui.Component, {
@@ -101,6 +107,8 @@ nx.define('ContactView', nx.ui.Component, {
 
 ### Create ViewModel
 
+ViewModel is an intermediate layer that binds view and model. We created a few methods that read the model, and translate the data into the view. There are also methods that perfrom filtering of the model.
+
 ```JavaScript
 nx.define('ContactViewModel', nx.data.ObservableObject, {
 	properties: {
@@ -142,6 +150,8 @@ nx.define('ContactViewModel', nx.data.ObservableObject, {
 ```
 
 ### Create data file
+
+There are several contacts, we kindly prepared for you. It just contains first name, last name, company name, phone number and a gender of a contact.
 
 ```JavaScript
 var contacts = [
@@ -185,6 +195,8 @@ var contacts = [
 
 ### Tie it up and launch
 
+The tie-up procedure is standard:
+
 ```JavaScript
 var app = new nx.ui.Application();
 
@@ -199,6 +211,9 @@ app.container(document.getElementById("next-container"));
 ```
 
 ## Result
+
+Finally, we've got that running. As an example, we typed a few letters and you may watch it filter the results.
+
 ![](../images/tutorial-006-05/contact-list.png)
 
 ## What's next?
