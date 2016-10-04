@@ -73,14 +73,16 @@ topology.on("topologyGenerated", function() {
 	var group1 = groupsLayer.addGroup({
 		nodes: nodes1,
 		label: 'California',
-		color: '#f00'
+		color: '#f00',
+		group: 'group1'
 	});
 
 	var nodes2 = [nodesDict.getItem("Dallas"), nodesDict.getItem("San Antonio")];
 	var group2 = groupsLayer.addGroup({
 		nodes: nodes2,
 		label: 'Texas',
-		color: '#0f0'
+		color: '#0f0',
+		id: 'group2'
 	});
 
 });
@@ -95,6 +97,7 @@ Then we do the same operations we did for path drawing: get layer, get nodes' di
 * **nodes** is an array of nodes' instances
 * **label** (optional) is a label assigned to the group and displayed next to it
 * **color** is the background color of the group in RGB hex format 
+* **id** (optional) is a string identifier of the node group. Used to retrieve, or delete the group.
 
 ### Result
 Finally, you should be seeing something like this:
@@ -105,9 +108,17 @@ The green and red areas are the groups.
 
 As usual, you could see a [live demo on Codepen](http://codepen.io/NEXTSUPPORT/pen/KgyGGg).
 
-## Remove Node Groups
-TBD
+## Remove Node Group
+Remember the **id** attribute you passed into *addGroup* method? We can use the id to find and delete the group from *groupsLayer*.
+
+```JavaScript
+groupsLayer.removeGroup("group2");
+```
+
+```group2``` here is the ID.
 
 ## What's next?
+When you need to process the topology data before you reveal it, please make sure to use data processors. This is what we're talking about in the next article.
 
+[Read NEXT](./tutorial-003-05.md)
 
