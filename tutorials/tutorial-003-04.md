@@ -96,14 +96,14 @@ Then we do the same operations we did for path drawing: get layer, get nodes' di
 * **label** (optional) is a label assigned to the group and displayed next to it
 * **color** is the background color of the group in RGB hex format 
 
-See full code listing on [Codepen]()
-
 ### Result
 Finally, you should be seeing something like this:
 
 ![](../images/tutorial-003-02/topology-grouped.png)
 
 The green and red areas are the groups.
+
+As usual, you could see a [live demo on Codepen](http://codepen.io/NEXTSUPPORT/pen/KgyGGg).
 
 ## Remove Node Groups
 TBD
