@@ -53,9 +53,6 @@ See the full example on [Codepen]().
 
 In the detailed example, take a look at "nodeSetConfig" please. That's how we set the label for the nodeset. By default the label is empty.
 
-## Expanded by Default
-TBD: found a bug
-
 ## Important to Know
 That's important to know that:
 
@@ -64,4 +61,6 @@ That's important to know that:
 
 
 ## What's next?
-TBD
+The next topic will be *layers*. It is essential to know what they are designed for and what's the way to efficiently utilize them.
+
+[Read NEXT](./tutorial-003-02.md)

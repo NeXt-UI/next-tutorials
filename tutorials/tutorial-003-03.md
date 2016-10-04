@@ -108,6 +108,8 @@ pathLayer.removePath(pathInst);
 ## Demo
 ![](../images/tutorial-003-04/topology-path.png)
 
+See example on [Codepen](http://codepen.io/NEXTSUPPORT/pen/dpkjLY?editors=0010#0)
+
 ## What's next?
 The next tutorial will lead you through grouping of nodes.
 

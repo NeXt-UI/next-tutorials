@@ -44,7 +44,9 @@ Imagine, you want to adhere a tiny icon to each node, that would represent the s
 
 Since the example above is a really brief one, take a look at real code:
 
-Examples: TBD
+[PCE-OF topology configuration](https://github.com/CiscoDevNet/pceof-gui/blob/0ce039a06aef5031454f3948bd99baea2a8b4eb4/gui/src/main/webapp/src/app/components/topology/next_topology.directive.js#L118) on GitHub. The [entire app](https://github.com/CiscoDevNet/pceof-gui) is really cool and worth seeing.
+
+We are also going to exercise this skill in [a practial lesson](./tutorial-007-05.md). 
 
 ## What's Next?
 The next tutorial gives you a brief overview of implemented in NeXt "Model-View-ViewModel" concept.

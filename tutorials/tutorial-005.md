@@ -53,6 +53,10 @@ In that case, the second parameter of the callback function will take the messag
 
 [Codepen](http://codepen.io/NEXTSUPPORT/pen/OXZLZr)
 
+Also, see the example of using the events across a class:
+
+[Codepen](http://codepen.io/NEXTSUPPORT/pen/ALbdNb)
+
 ## Watchers
 A watcher is a type of event listener that tracks any change of variable's value.
 

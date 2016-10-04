@@ -4,9 +4,5 @@ why it inherits nx.Observable
 
 Data processors: 003-05 (circle DP left)
 Layouts - 003-06 (describe the built-in ones)
-extended nodes s006-04: example from PCE-OF
 
 create codepens for articles in 003
-
-for events (005)
-don’t forget to register events (before this.fire)
