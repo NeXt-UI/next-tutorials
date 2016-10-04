@@ -2,9 +2,8 @@ dependencies/binding
 simplify binding: merge the 2nd section into the 1st
 why it inherits nx.Observable
 
-Data processors: 003-05 (describe built-in ones)
+Data processors: 003-05 (circle DP left)
 Layouts - 003-06 (describe the built-in ones)
-mvvm - 006-05
 extended nodes s006-04: example from PCE-OF
 
 create codepens for articles in 003
