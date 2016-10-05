@@ -1,5 +1,5 @@
 # Classes: Methods
-Methods determine the way a developer interacts with the object. Methods usually operate [properties](tutorial-004-1.md), performing different actions, such as iterations, conversions, adding and removal, over them.
+Methods determine the way a developer interacts with the object. Methods usually operate [properties](tutorial-004-01.md), performing different actions, such as iterations, conversions, adding and removal, over them.
 
 ## Define a Simple Method
 Let's jump into it right away from a simple sample class.
@@ -77,4 +77,4 @@ console.log( person.name() ); // "Jack"
 ## What's next?
 Ok, now that you are familiar with the properties and methods, let's move on to *inheritance* - the [OOP](tutorial-004.md) principle providing a way to extend or reuse an existing class. 
 
-[Read NEXT](tutorial-004-3.md)
+[Read NEXT](tutorial-004-03.md)

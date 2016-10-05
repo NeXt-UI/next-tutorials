@@ -5,7 +5,7 @@ NeXt provides a sophisticated way to extend standard objects, such as nodes, lin
 Should you extend any class, you can change the behavior and look of the object that represents it. Let's move on and you will find out the way to do that in 15 minutes!
 
 ## Basics
-Let's recall basic [inheritance](./tutorial-004-3.md):
+Let's recall basic [inheritance](./tutorial-004-03.md):
 
 ```JavaScript
 // parent class

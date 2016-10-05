@@ -152,4 +152,4 @@ No memory leaks, isn't that great? :)
 ## What's next?
 Let's get to know how to handle the properties with the methods. Next article will tell about that.
 
-[Read NEXT](tutorial-004-2.md)
+[Read NEXT](tutorial-004-02.md)

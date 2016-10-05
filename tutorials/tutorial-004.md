@@ -79,4 +79,4 @@ Pretty straight-forward, isn't it?
 
 The next article covers usage of properties in your project.
 
-[Read NEXT](tutorial-004-1.md)
+[Read NEXT](./tutorial-004-01.md)

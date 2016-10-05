@@ -148,4 +148,4 @@ The example with the constructor shows, because you will mostly need to partly o
 ## What's next?
 Singleton classes is the topic of our next lesson. 
 
-[Read NEXT](tutorial-004-4.md)
+[Read NEXT](tutorial-004-04.md)

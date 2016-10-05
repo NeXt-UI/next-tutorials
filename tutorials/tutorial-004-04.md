@@ -57,4 +57,4 @@ Sometimes programmers use singletons as configuration across the app, for utilit
 ## What's next?
 Events is what makes JavaScript JavaScript. That will be the conslusive article, which will be followed by tutorial on how to create and customize topologies.
 
-[Read NEXT](tutorial-005.md)
+[Read NEXT](tutorial-004-05.md)
