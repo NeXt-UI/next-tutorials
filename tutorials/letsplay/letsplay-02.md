@@ -12,7 +12,7 @@ To make an image icon display you need to:
 
 Let's roll! Here is the new icon we will use for nodes:
 
-![](../images/tutorial-007-02/alien.png)
+![](../../images/tutorial-007-02/alien.png)
 
 You can find it in this repository at the following address: ```/images/tutorial-007-02/alien.png```
 
@@ -74,7 +74,7 @@ All you need to do here is to set ```iconType``` to ```alien```, like it's shown
 
 What you should be getting as the result of your operations is:
 
-![](../images/tutorial-007-02/topology-aliens.png)
+![](../../images/tutorial-007-02/topology-aliens.png)
 
 Beautiful :) Move on!
 
@@ -182,9 +182,9 @@ Now we are going to create a sort of logic that would distinguish node with spec
 
 What do you have now? It works here and that's what I have:
 
-![](../images/tutorial-007-02/aliens_star.png)
+![](../../images/tutorial-007-02/aliens_star.png)
 
 ## What's Next?
 Now that we've learned to register icons and apply them to specific nodes, we are ready for the next customization: extend node class.
 
-[Read Next](/tutorials/tutorial-007-03.md)
+[Read Next](./letsplay-03.md)

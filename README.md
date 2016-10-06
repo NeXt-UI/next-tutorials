@@ -30,14 +30,20 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
 	4. [Inheritance of views](./tutorials/tutorial-006-04.md)
 	5. [MVVM](./tutorials/tutorial-006-05.md)
 	6. [Stage](./tutorials/tutorial-006-06.md)
-7. [Let's Play](./tutorials/tutorial-007.md) - building NeXt app from scratch
-	1. [Quickstart](./tutorials/tutorial-007-01.md)
-	2. [Custom icons](./tutorials/tutorial-007-02.md)
-	3. [Action panel](./tutorials/tutorial-007-03.md)
-	4. [Path drawing](./tutorials/tutorial-007-04.md)
-	5. [Class extension](./tutorials/tutorial-007-05.md)
-	6. [Scene manipulation](./tutorials/tutorial-007-06.md)
-	7. [Tooltip policy customization](./tutorials/tutorial-007-07.md)
+
+### Let's Play
+
+It's time to play! Now that you've learned so much about NeXt, you can apply the knowledge to a real application.
+
+You are now ready to create a real application built completely in NeXt. Don't worry - we'll guide you through this process.
+
+1. [Quickstart](./tutorials/letsplay/letsplay-01.md)
+2. [Custom icons](./tutorials/letsplay/letsplay-02.md)
+3. [Action panel](./tutorials/letsplay/letsplay-03.md)
+4. [Path drawing](./tutorials/letsplay/letsplay-04.md)
+5. [Class extension](./tutorials/letsplay/letsplay-05.md)
+6. [Scene manipulation](./tutorials/letsplay/letsplay-06.md)
+7. [Tooltip policy customization](./tutorials/letsplay/letsplay-07.md)
 
 ## FAQ
 We are happy to answer your questions. So we listed the most frequent of them in a separate section: [Frequently Asked Questions](tutorials/faq.md).

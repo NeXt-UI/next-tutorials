@@ -1,5 +1,4 @@
-dependencies/binding
-simplify binding: merge the 2nd section into the 1st
+dependencies/binding: setBinding/clearBinding
 
 Data processors: 003-05 (circle DP left)
 Layouts - 003-06 (describe the built-in ones)

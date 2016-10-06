@@ -1,5 +1,5 @@
 # Scene Manipulation
-[Scene](tutorial-003-07.md) is the object that controls the behavior of stopology's area.
+[Scene](../tutorial-003-07.md) is the object that controls the behavior of stopology's area.
 
 ## Task
 The goal is to make the tooltips show up when a user hovers over nodes (by default, they appear by click). Instead, by click the user will toggle the nodes' "connection" to the network. Initially, each node is connected.
@@ -73,11 +73,11 @@ topology.on("topologyGenerated", function(topo, event){
 ## Result
 Now when you hit a node it toggles the status. Wait... Why is that tooltip popping up after the click?
 
-![](../images/tutorial-007-06/status-toggle-tooltip.png)
+![](../../images/tutorial-007-06/status-toggle-tooltip.png)
 
 That's Tooltip Policy in action! To prevent that from happenning you will need to extend it, too.
 
 ## What's next?
 Right, we're going to hack tooltip policy to make tooltips show up by entering the node's area and without a click.
 
-[Read NEXT](../tutorial-007-07.md)
+[Read NEXT](./letsplay-07.md)

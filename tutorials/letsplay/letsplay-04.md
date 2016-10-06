@@ -92,8 +92,11 @@ We are going to modify the same file.
 ## Result
 Once a user clicks "Draw Path", they will see the following picture:
 
-![](../images/tutorial-007-04/topo-path.png)
+![](../../images/tutorial-007-04/topo-path.png)
 
 You can find a code example in **/demos/tutorial-007-04/**
 
 ## What's next?
+The next tutorial covers class extension.
+
+[Read NEXT](./letsplay-05.md)

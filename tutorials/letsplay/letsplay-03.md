@@ -79,11 +79,11 @@ Make sure you've connected the ```action-panel.js``` to the index page.
 ```
 
 ## Demo
-![](../images/tutorial-007-03/topology-action-panel.png)
+![](../../images/tutorial-007-03/topology-action-panel.png)
 
 The app is expected to display both topology and the UI component (action panel). The component renders two buttons and even binds JavaScript functions to events. The fact the functions are "empty" at the moment is normal though, since we are going to pay attention to what goes inside them in the following lesson.
 
 ## What's next?
 In this tutorial you appended a new UI component to the app and binded events to such UI objects as buttons. The next lessons reveals details of yet another built-in module of NeXt UI: *paths* and *paths' layer*. We'll make the buttons' behavior comply with their labels :)
 
-[Read NEXT](tutorial-007-04.md)
+[Read NEXT](./letsplay-04.md)

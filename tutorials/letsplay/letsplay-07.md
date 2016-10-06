@@ -74,11 +74,11 @@ It simply reassigns the tooltip policy class in tooltip manager.
 ## Result
 Now a tooltip shows up, when a user's cursor is over the node:
 
-![](../images/tutorial-007-07/tooltip-hover.png)
+![](../../images/tutorial-007-07/tooltip-hover.png)
 
 Once they click, the tooltip disappears and the tiny pimple grows on the aliens face - that is, the we changed the status of the connection.
 
-![](../images/tutorial-007-07/scene-click.png)
+![](../../images/tutorial-007-07/scene-click.png)
 
 ## What's next?
 TBD
