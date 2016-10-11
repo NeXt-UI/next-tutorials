@@ -44,9 +44,6 @@ Quick data processor essentially assigns random [x;y] position to each node. Com
 
 "Quick" data processor on [Codepen](http://codepen.io/NEXTSUPPORT/pen/OROkgv)
 
-### Circle
-TBD
-
 ## Create Your DP
 The machanism of creation data processors does not currently exist. Hold on to using the built-in ones.
 
