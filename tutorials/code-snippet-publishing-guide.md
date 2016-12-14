@@ -48,3 +48,7 @@ Don't forget to save your code before you copy the link and close the tab.
 
 ![](../images/code-snippet-publishing-guide/save-pen.png)
 
+## Share Link
+Great, you've created the snippet! Now that it runs on your system, copy the link of the webpage and kindly share with us :)
+
+Thanks.

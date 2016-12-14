@@ -4,6 +4,8 @@ This is the tutorial to help you understand how NeXt UI Toolkit works and start 
 
 Should you notice a typo or have a question, do not hesitate to contact the authors at <next-dev@lists.opendaylight.org>.
 
+**Please, note:** we appreciate sharing code snippets (instead of verbal description of encountered issue). See [guide](./tutorials/code-snippet-publishing-guide.md).
+
 ## Tutorial Contents
 0. [Introduction](./tutorials/tutorial-000.md)
 1. [Download and install](./tutorials/tutorial-001.md)
