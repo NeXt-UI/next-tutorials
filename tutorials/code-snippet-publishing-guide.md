@@ -1,20 +1,28 @@
 # Guide to Publishing Code Snippets
 
-When it comes to reaching out to technical support, you may need to share code snippets that illustrate the matter. The snippet is a small block of code that works on its own without necessity for the other party to install the entire environment.
+Prototyping and coding is an iterative, explorative and collaborative activity. When it comes to reaching out to technical support, customers, peers or the crowd, you may need to share code snippets that illustrate a prototype or an encountered problem.
 
-Thus, the purpose of the code snippet is to localize an issue, or a bug, and to share the details with the NEXT team.
+The snippet is a small block of code that works on its own without necessity for the other party to install the entire environment. With free online services it has become really easy to exchange JavaScript snippets with other people.
 
-## JS Sandboxes
-A lot of companies and Internet services provide web-based JavaScript sandboxes for free. Here's a short list of most known ones:
+Thus, the purpose of the code snippet is to prototype a project, to localize an issue, or a bug, and jointly evolve your project.
+
+This quick tutorial will help you publish a code snippet to get across to the NEXT team.
+
+## JavaScript Sandboxes
+A lot of companies and Internet services provide web-based JavaScript sandboxes for free. In general, they provide three code editors: HTML, CSS and JavaScript, as well as a pane to render the result in. You can save, share, "fork" (that is, copy) and even like and comment on the snippets.
+
+Here's a short list of most known sandboxes:
 
 * [Codepen](http://codepen.io)
 * [JSfiddle](https://jsfiddle.net)
 * [Plunker](http://plnkr.co)
 
-There are many more others, so choose one you prefer. 
+There are many more others, so choose the one you prefer.
 
-## Create New Snippet
-We normally use Codepen for the examples we share in our support group and mailer, and for the published tutorials.
+## Create New NEXT Snippet on Codepen
+We normally use Codepen for the examples we share in our support group and mailer, as well as for the published tutorials.
+
+To start, open [http://codepen.io]() in your favorite web browser. 
 
 ### Initialize a pen
 First, hit "New Pen":
@@ -25,21 +33,21 @@ Three panels (HTML, CSS, JS) will show up:
 
 ![](../images/code-snippet-publishing-guide/codepen-panels.png)
 
-### Include library files
+### Include NeXt library files
 Press "Settings" button to reveal the window.
 
 ![](../images/code-snippet-publishing-guide/press-settings.png)
 
-Tap the CSS tab and add ```https://abdvl.github.io/src/dist/css/next.css``` as an external CSS.
+Tap the CSS tab and add ```https://abdvl.github.io/src/dist/css/next.css``` as an external CSS file.
 
 ![](../images/code-snippet-publishing-guide/external-css.png)
 
-Then tap the JavaScript tab and add ```https://abdvl.github.io/src/dist/js/next.js``` as an external JavaScript.
+Switch to the JavaScript tab and add ```https://abdvl.github.io/src/dist/js/next.js``` as an external JS source.
 
 ![](../images/code-snippet-publishing-guide/external-js.png)
 
 ### Start coding
-Now you can start writing code of your snippet.
+Now you can start writing code of your snippet in the JS text editor.
 
 ![](../images/code-snippet-publishing-guide/result.png)
 
@@ -49,6 +57,4 @@ Don't forget to save your code before you copy the link and close the tab.
 ![](../images/code-snippet-publishing-guide/save-pen.png)
 
 ## Share Link
-Great, you've created the snippet! Now that it runs on your system, copy the link of the webpage and kindly share with us :)
-
-Thanks.
+Great, you've created the snippet! Now that it runs on your system, you're welcome to copy the link to the webpage and share with us :)
