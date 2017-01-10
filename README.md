@@ -16,7 +16,7 @@ Should you notice a typo or have a question, do not hesitate to contact the auth
     3. [Path drawing](./tutorials/tutorial-003-03.md)
     4. [Groups](./tutorials/tutorial-003-04.md)
     5. [Data processors](./tutorials/tutorial-003-05.md)
-    6. [Layots](./tutorials/tutorial-003-06.md)
+    6. [Layouts](./tutorials/tutorial-003-06.md)
     7. [Scene](./tutorials/tutorial-003-07.md)
 4. [Introduction to Object-Oriented Programming](/tutorials/tutorial-004.md)
     1. [Properties](./tutorials/tutorial-004-01.md)
