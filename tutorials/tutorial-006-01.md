@@ -1,6 +1,6 @@
 # Property Binding
 
-Roughly, *Data binding* is the process of binding binding a JS model and HTML/DOM model. Developers differentiate one-way binding and two-way binding. 
+Roughly, *Data binding* is the process of binding a JS model and HTML/DOM model. Developers differentiate one-way binding and two-way binding. 
 
 The *one-way binding* is usually control over DOM from JS model. The *two-way binding* has, obviously, data flows in both directions: from the view to model and from model to view. That means, if you are changing value in the form, it will be immediately changing in the model, and vice versa.
 
