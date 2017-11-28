@@ -262,4 +262,4 @@ Congratulations!
 ## What's next?
 We are going to add more interaction and redefine a few built-in events. Now you decide which alien goes down :)
 
-[Read NEXT](../tutorial-007-06.md)
+[Read NEXT](./letsplay-06.md)
