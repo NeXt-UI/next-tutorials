@@ -62,6 +62,6 @@ The content of the tutorial goes under Eclipse Public License - v 1.0.
 See [LICENSE](./LICENSE) for more info.
 
 ## Credits
-* Alexei Zverev
-* Abuduweili Aikepear
+* Alexei Zverev (alzverev@cisco.com)
+* Abuduweili Aikepear (aaikepae@cisco.com)
 
