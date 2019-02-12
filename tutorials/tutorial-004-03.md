@@ -91,7 +91,7 @@ nx.define("ChildClass", ParentClass, {
 Let's instantiate ```ChildClass```:
 
 ```JavaScript
-var foo = ChildClass(); // invokes "init" method and prints "This overrides the init method" to the console
+var foo = new ChildClass(); // invokes "init" method and prints "This overrides the init method" to the console
 ```
 
 Essentially, information in this section applies to any method - you can override any member of class - and prepared you for the special power of NeXt: "partial overriding", which goes next.
