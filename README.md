@@ -1,5 +1,17 @@
 # NeXt UI Documentation
 
+## DISCLAIMER / As of 25th November 2019
+
+Hi fellow developer
+
+My name is Alex, I built this tutorial a while ago when I worked on the team that developed it.
+
+To my best knowledge, **Next UI is no longer actively maintained**. I will keep this repository as a monument of work I've done, but I'd like to set an expectation that **any new issues or pull requests will be ignored**.
+
+In case you would like to obtain more details, I highly recommend going to [the DevNet website](https://developer.cisco.com/) for any information. At the time of writing this disclaimer this link worked to start a Webex Teams chat with the DevNet team:  [click here](https://developer.cisco.com/site/spark-chat/).
+
+## Introduction
+
 This is the tutorial to help you understand how NeXt UI Toolkit works and start writing your code as soon as possible.
 
 Should you notice a typo or have a question, do not hesitate to contact the authors at <next-dev@lists.opendaylight.org>.
