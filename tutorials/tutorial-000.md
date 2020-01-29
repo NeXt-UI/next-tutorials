@@ -1,6 +1,6 @@
 # Introduction
 
-NeXt UI is a Javascript/CSS framework for frontend developers who are in need to embed topology interaction into their web applications. NeXt features MVVP, OOP and DOM manipulation. NeXt renders network topologies and enables user interaction with them through event listeners.
+NeXt UI is a Javascript/CSS framework for frontend developers who are in need to embed topology interaction into their web applications. NeXt features MVVM, OOP and DOM manipulation. NeXt renders network topologies and enables user interaction with them through event listeners.
 
 To jump into learning you are required to know JavaScript (along with JSON) and HTML. Basic knowledge or understanding of CSS, SVG and Object Oriented Programming may be of use. 
 
